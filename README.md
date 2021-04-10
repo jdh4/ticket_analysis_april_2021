@@ -54,3 +54,14 @@ for index, message in enumerate(mailbox.mbox(infile)):
     writer.writerow(row)
         #message['from'].strip('>').split('<')[-1],
 ```
+
+A `configure.log` attachment is represented as:
+
+```
+------------=_1617991359-13169-8
+Content-Type: application/octet-stream; name="configure.log"
+Content-Disposition: attachment; filename="configure.log"
+Content-Transfer-Encoding: base64
+Content-ID: <f_knalydl60>
+RT-Attachment: 33445/772237/603565
+```
