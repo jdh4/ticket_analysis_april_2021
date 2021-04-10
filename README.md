@@ -13,3 +13,5 @@ The following shows the keys of a message dictionary:
 (Pdb) message.keys()
 ['From', 'To', 'Subject', 'Thread-Topic', 'Thread-Index', 'Date', 'Message-ID', 'References', 'In-Reply-To', 'Content-Language', 'X-MS-Has-Attach', 'X-MS-Exchange-Organization-SCL', 'X-MS-TNEF-Correlator', 'X-MS-Exchange-Organization-RecordReviewCfmType', 'Content-Type', 'MIME-Version']
 ```
+
+SO: [code](https://stackoverflow.com/questions/33537476/mailbox-to-csv-using-python)
