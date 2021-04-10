@@ -65,3 +65,27 @@ Content-Transfer-Encoding: base64
 Content-ID: <f_knalydl60>
 RT-Attachment: 33445/772237/603565
 ```
+
+Looking for attachment types:
+
+```
+$ grep Content-Transfer-Encoding mbox | sort | uniq
+	 Content-Transfer-Encoding;
+	Content-Transfer-Encoding:Content-Type:MIME-Version:Sender:Reply-To:Cc:
+	h=From:To:Subject:MIME-Version:Content-Type:Content-Transfer-Encoding:Message-ID:Date:Feedback-ID;
+	h=From:To:Subject:MIME-Version:Content-Type:Content-Transfer-Encoding:Message-ID:Date;
+ Content-Type : Content-Transfer-Encoding : From : Subject : Date : 
+ h=From:Subject:Reply-To:To:Message-Id:Date:MIME-Version:Content-Type:Content-Transfer-Encoding; i=no-reply@zoom.us;
+<pre><span style="color:gray">Content-Transfer-Encoding: binary<o:p></o:p></span></pre>
+Content-Transfer-Encoding: 7BIT
+Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 8BIT
+Content-Transfer-Encoding: 8Bit
+Content-Transfer-Encoding: 8bit
+Content-Transfer-Encoding: Base64
+Content-Transfer-Encoding: Quoted-Printable
+Content-Transfer-Encoding: Quoted-printable
+Content-Transfer-Encoding: base64
+Content-Transfer-Encoding: binary
+Content-Transfer-Encoding: quoted-printable
+```
